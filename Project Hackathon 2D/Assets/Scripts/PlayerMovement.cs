@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     List<Collider2D> disabled = new List<Collider2D>();
 
     //
-    Color spriteColor;
+    public Color spriteColor;
     [SerializeField] SpriteRenderer sR;
 
     private void Start()
@@ -97,24 +97,14 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(new Vector2(movementSpeedX, movementSpeedY) * Time.fixedDeltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public Vector2 getDirections()
     {
-        // When the player enters a block, make the block phasable
-        if (spriteColor == collision.gameObject.GetComponent<SpriteRenderer>().color)
-        {
-            Debug.Log("Entered!");
-            disabled.Add(collision.collider);
-            collision.collider.enabled = false;
-        }
+        return new Vector2(movementSpeedX, movementSpeedY);
     }
 
-    private void OnCollisionExit(Collision collision)
+    public void reverseMovement()
     {
-        // When the player leaves a block, make the block solid again
-        Debug.Log("Exited!");
-        foreach (var c in disabled)
-        {
-            c.enabled = true;
-        }
+        movementSpeedX = 0;
+        movementSpeedY = 0;
     }
 }
