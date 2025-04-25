@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 83c8f8a83ec9f2e4fbb58119b7456747
+guid: e93f240dad2102d4d842ffcfa6f9b8e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9217916340830133502
-    second: playerTwo_0
+      213: -6731235974188136060
+    second: redDumpster_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playerTwo_0
+      name: redDumpster_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 257
-        height: 401
+        x: 12
+        y: 2
+        width: 615
+        height: 562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efcd278c21e9cef70800000000000000
-      internalID: 9217916340830133502
+      spriteID: 4898f2b8b88d592a0800000000000000
+      internalID: -6731235974188136060
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      playerTwo_0: 9217916340830133502
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
