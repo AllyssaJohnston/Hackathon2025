@@ -27,5 +27,10 @@ public class GameManagerBehavior : MonoBehaviour
             }
 
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            MainManager.AttemptToTransition();
+        }
     }
 }
