@@ -91,8 +91,8 @@ GameObject:
   - component: {fileID: 5906303487729092396}
   - component: {fileID: 4101280217360123705}
   m_Layer: 5
-  m_Name: Transistion
-  m_TagString: Untagged
+  m_Name: Transition
+  m_TagString: Transition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

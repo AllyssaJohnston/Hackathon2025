@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Block
   - Goal
+  - NPC
+  - Transition
   layers:
   - Default
   - TransparentFX

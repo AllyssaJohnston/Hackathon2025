@@ -18,8 +18,7 @@ public class GoalBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("start transition");
-        StartCoroutine(transistionPanel.GetComponent<CanvasTransistionBehavior>().sceneTransition());
+        StartCoroutine(transistionPanel.GetComponent<CanvasTransitionBehavior>().sceneTransition());
     }
 
 }

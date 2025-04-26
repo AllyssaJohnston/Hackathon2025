@@ -3,7 +3,7 @@ using TMPro;
 using System.Collections;
 using UnityEngine.UI;
 
-public class CanvasTransistionBehavior : MonoBehaviour
+public class CanvasTransitionBehavior : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -16,13 +16,7 @@ public class CanvasTransistionBehavior : MonoBehaviour
 
     private void Start()
     {
-        Color panelColor = panel.GetComponent<Image>().color;
-        Color textColor = text.faceColor;
-        Color npcColor = image.GetComponent<Image>().color;
-
-        panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, 0);
-        text.faceColor = new Color(textColor.r, textColor.g, textColor.b, 0);
-        image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, 0);
+        Reset();
     }
 
     public IEnumerator sceneTransition()
@@ -41,5 +35,17 @@ public class CanvasTransistionBehavior : MonoBehaviour
         }
         yield return new WaitForSeconds(0.3f);
         MainManager.SetReadyToTransition(true);
+    }
+
+    public void Reset()
+    {
+        Color panelColor = panel.GetComponent<Image>().color;
+        Color textColor = text.faceColor;
+        Color npcColor = image.GetComponent<Image>().color;
+
+        panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, 0);
+        text.faceColor = new Color(textColor.r, textColor.g, textColor.b, 0);
+        image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, 0);
+        MainManager.SetReadyToTransition(false);
     }
 }

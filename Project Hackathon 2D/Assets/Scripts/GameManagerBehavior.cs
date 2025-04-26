@@ -1,12 +1,19 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManagerBehavior : MonoBehaviour
 {
+    private GameObject[] players;
+    private GameObject[] blocks;
+    private GameObject[] npcs;
+    private GameObject[] transitions;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        players = GameObject.FindGameObjectsWithTag("Player");
+        blocks = GameObject.FindGameObjectsWithTag("Block");
+        npcs = GameObject.FindGameObjectsWithTag("NPC");
+        transitions = GameObject.FindGameObjectsWithTag("Transition");
     }
 
     // Update is called once per frame
@@ -15,15 +22,21 @@ public class GameManagerBehavior : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             //level reset
-            GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
             foreach (GameObject player in players)
             {
                 player.GetComponent<PlayerMovement>().Reset();
             }
-            GameObject[] blocks = GameObject.FindGameObjectsWithTag("Block");
             foreach (GameObject block in blocks)
             {
                 block.GetComponent<BlockManagerBehavior>().Reset();
+            }
+            foreach (GameObject transition in transitions)
+            {
+                transition.GetComponent<CanvasTransitionBehavior>().Reset();
+            }
+            foreach (GameObject npc in npcs)
+            {
+                npc.GetComponent<NPCMovement>().Reset();
             }
 
         }
