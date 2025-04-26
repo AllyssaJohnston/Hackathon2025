@@ -32,24 +32,30 @@ public class BlockManagerBehavior : MonoBehaviour
         Debug.Log("player " + (player == null ? "null" : "not null"));
         if (player != null)
         {
-            if (player.getColor() != sR.color)
+
+            if (player.getColor() == sR.color)
+            {
+                rB2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+            }
+            else
             {
                 Debug.Log("Stay");
                 // Wall
                 player.reverseMovement();
-                rB2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
             }
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        rB2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rB2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
     }
 
     public void Reset()
     {
         Debug.Log("block");
-        rB2D.MovePosition(startPos);
+        rB2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+        transform.position = startPos;
+        rB2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
     }
 }

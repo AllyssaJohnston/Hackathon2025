@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     // Movement variables for ease of change
     Vector2 startPos;
     float movementAmounts = 0.1f;
-    float slowDownAmounts = 0.05f;
+    float slowDownAmounts = 1.05f;
+    float maxSpeed = 5;
     List<Collider2D> disabled = new List<Collider2D>();
 
     //
@@ -35,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.W))
             {
                 // Move along the Y axis
-                if (movementSpeedY <= 5)
+                if (movementSpeedY <= maxSpeed)
                 {
                     movementSpeedY += movementAmounts;
                 }
@@ -43,26 +44,19 @@ public class PlayerMovement : MonoBehaviour
             else if (Input.GetKey(KeyCode.S))
             {
                 // Move along the Y axis
-                if (movementSpeedY >= -5)
+                if (movementSpeedY >= -maxSpeed)
                 {
                     movementSpeedY -= movementAmounts;
                 }
             }
             else
             {
-                if (movementSpeedY > 0)
-                {
-                    movementSpeedY -= slowDownAmounts;
-                }
-                else
-                {
-                    movementSpeedY += slowDownAmounts;
-                }
+                movementSpeedY /= slowDownAmounts;
             }
             if (Input.GetKey(KeyCode.D))
             {
                 // Move along the Y axis
-                if (movementSpeedX <= 5)
+                if (movementSpeedX <= maxSpeed)
                 {
                     movementSpeedX += movementAmounts;
                 }
@@ -70,21 +64,14 @@ public class PlayerMovement : MonoBehaviour
             else if (Input.GetKey(KeyCode.A))
             {
                 // Move along the Y axis
-                if (movementSpeedX >= -5)
+                if (movementSpeedX >= -maxSpeed)
                 {
                     movementSpeedX -= movementAmounts;
                 }
             }
             else
             {
-                if (movementSpeedX > 0)
-                {
-                    movementSpeedX -= slowDownAmounts;
-                }
-                else
-                {
-                    movementSpeedX += slowDownAmounts;
-                }
+                movementSpeedX /= slowDownAmounts;
             }
         }
         // Player 2 Movement
@@ -93,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.UpArrow))
             {
                 // Move along the Y axis
-                if (movementSpeedY <= 5)
+                if (movementSpeedY <= maxSpeed)
                 {
                     movementSpeedY += movementAmounts;
                 }
@@ -101,26 +88,19 @@ public class PlayerMovement : MonoBehaviour
             else if (Input.GetKey(KeyCode.DownArrow))
             {
                 // Move along the Y axis
-                if (movementSpeedY >= -5)
+                if (movementSpeedY >= -maxSpeed)
                 {
                     movementSpeedY -= movementAmounts;
                 }
             }
             else
             {
-                if (movementSpeedY > 0)
-                {
-                    movementSpeedY -= slowDownAmounts;
-                }
-                else
-                {
-                    movementSpeedY += slowDownAmounts;
-                }
+                movementSpeedY /= slowDownAmounts;
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 // Move along the Y axis
-                if (movementSpeedX <= 5)
+                if (movementSpeedX <= maxSpeed)
                 {
                     movementSpeedX += movementAmounts;
                 }
@@ -128,21 +108,14 @@ public class PlayerMovement : MonoBehaviour
             else if (Input.GetKey(KeyCode.LeftArrow))
             {
                 // Move along the Y axis
-                if (movementSpeedX >= -5)
+                if (movementSpeedX >= -maxSpeed)
                 {
                     movementSpeedX -= movementAmounts;
                 }
             }
             else
             {
-                if (movementSpeedX > 0)
-                {
-                    movementSpeedX -= slowDownAmounts;
-                }
-                else
-                {
-                    movementSpeedX += slowDownAmounts;
-                }
+                movementSpeedX /= slowDownAmounts;
             }
         }
 
