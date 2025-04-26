@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 09cea0d777fd67b4ebcfd13a8a17ddcc
+=======
+guid: ea68d91670ed6974dad29eb99eac3090
+>>>>>>> c6b12777556c3caab008c4cc59aed3164914a195
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,7 +151,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable: {}
+=======
+    nameFileIdTable:
+      beachTurtle_0: 8745819240064402516
+>>>>>>> c6b12777556c3caab008c4cc59aed3164914a195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

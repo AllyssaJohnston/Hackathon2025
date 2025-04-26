@@ -4,13 +4,15 @@ using System.Collections.Generic;
 public class PlayerMovement : MonoBehaviour
 {
     public bool playerNumber;
+    public Sprite backSideSprite;
+    Sprite frontSideSprite;
     float movementSpeedY;
     float movementSpeedX;
 
     // Movement variables for ease of change
     Vector2 startPos;
-    float movementAmounts = 0.1f;
-    float slowDownAmounts = 1.05f;
+    float movementAmounts = 1f;
+    float slowDownAmounts = 5f;
     float maxSpeed = 5;
     List<Collider2D> disabled = new List<Collider2D>();
 
@@ -24,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
         sR = gameObject.GetComponent<SpriteRenderer>();
         rB2D = gameObject.GetComponent<Rigidbody2D>();
         startPos = gameObject.transform.position;
+        frontSideSprite = sR.sprite;
     }
 
     // Update is called once per frame
@@ -39,6 +42,11 @@ public class PlayerMovement : MonoBehaviour
                 {
                     movementSpeedY += movementAmounts;
                 }
+                if(sR.sprite == frontSideSprite)
+                {
+                    sR.sprite = backSideSprite;
+                }
+                    
             }
             else if (Input.GetKey(KeyCode.S))
             {
@@ -46,6 +54,10 @@ public class PlayerMovement : MonoBehaviour
                 if (movementSpeedY >= -maxSpeed)
                 {
                     movementSpeedY -= movementAmounts;
+                }
+                if(sR.sprite == backSideSprite)
+                {
+                    sR.sprite = frontSideSprite;
                 }
             }
             else
@@ -83,6 +95,10 @@ public class PlayerMovement : MonoBehaviour
                 {
                     movementSpeedY += movementAmounts;
                 }
+                if(sR.sprite == frontSideSprite)
+                {
+                    sR.sprite = backSideSprite;
+                }
             }
             else if (Input.GetKey(KeyCode.DownArrow))
             {
@@ -90,6 +106,10 @@ public class PlayerMovement : MonoBehaviour
                 if (movementSpeedY >= -maxSpeed)
                 {
                     movementSpeedY -= movementAmounts;
+                }
+                if(sR.sprite == backSideSprite)
+                {
+                    sR.sprite = frontSideSprite;
                 }
             }
             else
@@ -117,6 +137,7 @@ public class PlayerMovement : MonoBehaviour
                 movementSpeedX /= slowDownAmounts;
             }
         }
+
 
     }
 
