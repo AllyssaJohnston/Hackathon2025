@@ -131,6 +131,22 @@ PrefabInstance:
       propertyPath: playerNumber
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.b
+      value: 0.24705884
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.g
+      value: 0.24705884
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.r
+      value: 0.7019608
+      objectReference: {fileID: 0}
     - target: {fileID: 5330448869869191772, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: m_Size.x
       value: 1.285
@@ -568,6 +584,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.b
+      value: 0.9960785
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.g
+      value: 0.9960785
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
+      propertyPath: spriteColor.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
     - target: {fileID: 5330448869869191772, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: m_Size.x
       value: 1.285

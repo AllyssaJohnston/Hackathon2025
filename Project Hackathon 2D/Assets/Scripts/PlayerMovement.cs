@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     List<Collider2D> disabled = new List<Collider2D>();
 
     //
-    Color spriteColor;
+    public Color spriteColor;
     [SerializeField] SpriteRenderer sR;
     [SerializeField] Rigidbody2D rB2D;
 
@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
     {
         sR = gameObject.GetComponent<SpriteRenderer>();
         rB2D = gameObject.GetComponent<Rigidbody2D>();
-        spriteColor = sR.color;
         startPos = gameObject.transform.position;
     }
 
