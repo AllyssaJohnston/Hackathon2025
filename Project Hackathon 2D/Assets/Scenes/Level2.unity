@@ -137,15 +137,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: spriteColor.b
-      value: 0.24705884
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: spriteColor.g
-      value: 0.24705884
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 367808479649064560, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: spriteColor.r
-      value: 0.7019608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5330448869869191772, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: m_Size.x
@@ -169,11 +169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8175205566723007237, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.22
+      value: -3.62
       objectReference: {fileID: 0}
     - target: {fileID: 8175205566723007237, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7812979
+      value: 2.64
       objectReference: {fileID: 0}
     - target: {fileID: 8175205566723007237, guid: 59d5ad8415ae7c94ca343bc33a9362ce, type: 3}
       propertyPath: m_LocalPosition.z
@@ -506,6 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3085d20a413e74783fd18d48d86f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!212 &2126301216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -681,6 +682,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2528714551221251265, guid: 20c118efe6d078b48b84503d53ccf704, type: 3}
+      propertyPath: spriteColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528714551221251265, guid: 20c118efe6d078b48b84503d53ccf704, type: 3}
+      propertyPath: spriteColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528714551221251265, guid: 20c118efe6d078b48b84503d53ccf704, type: 3}
+      propertyPath: spriteColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528714551221251265, guid: 20c118efe6d078b48b84503d53ccf704, type: 3}
+      propertyPath: spriteColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4064513106496273467, guid: 20c118efe6d078b48b84503d53ccf704, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.79
