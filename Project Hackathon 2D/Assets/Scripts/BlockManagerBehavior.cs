@@ -30,17 +30,15 @@ public class BlockManagerBehavior : MonoBehaviour
     private void ResolveCollision(Collision2D collision)
     {
         PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
-        Debug.Log("player " + (player == null ? "null" : "not null"));
         if (player != null)
         {
-            Debug.Log(player.getColor() + " " + spriteColor);
             if (compareColor(player.getColor(), spriteColor))
             {
+                // allow movement
                 rB2D.constraints = RigidbodyConstraints2D.FreezeRotation;
             }
             else
             {
-                Debug.Log("Stay");
                 // Wall
                 player.reverseMovement();
             }
