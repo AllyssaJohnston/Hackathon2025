@@ -14,7 +14,6 @@ public class ControlAnimationBehavior : MonoBehaviour
     public GameObject grampa;
     public GameObject curten;
     public GameObject buttonLayout;
-    //public GameObject image1; for animation later
 
     private bool ready = false; 
     private float alphaChange = .1f;
@@ -36,7 +35,6 @@ public class ControlAnimationBehavior : MonoBehaviour
     //to the control screen
     public void onClick()
     {
-        Debug.Log("Im aliiive");
         Appear();
     }
 
@@ -46,12 +44,12 @@ public class ControlAnimationBehavior : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             Color panelColor = panel.GetComponent<Image>().color;
-            Color textColor = text.faceColor;
+            Color textColor = text.color;
             Color npcColor = image.GetComponent<Image>().color;
             Color npcColor2 = image1.GetComponent<Image>().color;
 
             panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, panelColor.a - alphaChange);
-            text.faceColor = new Color(textColor.r, textColor.g, textColor.b, textColor.a - alphaChange);
+            text.color = new Color(textColor.r, textColor.g, textColor.b, textColor.a - alphaChange);
             image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, npcColor.a - alphaChange);
             image1.GetComponent<Image>().color = new Color(npcColor2.r, npcColor2.g, npcColor2.b, npcColor2.a - alphaChange);
 
@@ -85,12 +83,12 @@ public class ControlAnimationBehavior : MonoBehaviour
     public void Reset()
     {
         Color panelColor = panel.GetComponent<Image>().color;
-        Color textColor = text.faceColor;
+        Color textColor = text.color;
         Color npcColor = image.GetComponent<Image>().color;
         Color npcColor2 = image1.GetComponent<Image>().color;
 
         panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, 0);
-        text.faceColor = new Color(textColor.r, textColor.g, textColor.b, 0);
+        text.color = new Color(textColor.r, textColor.g, textColor.b, 0);
         image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, 0);
         image1.GetComponent<Image>().color = new Color(npcColor2.r, npcColor2.g, npcColor2.b, 0);
         MainManager.SetReadyToTransition(false);
