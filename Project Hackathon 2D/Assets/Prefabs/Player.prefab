@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -5223258421110680988, guid: bce4c47c9b6da3f4aa110730fc0cb339, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &367808479649064560
@@ -105,6 +105,7 @@ MonoBehaviour:
   playerNumber: 1
   spriteColor: {r: 0, g: 0, b: 0, a: 0}
   sR: {fileID: 0}
+  rB2D: {fileID: 0}
 --- !u!50 &819621241174065016
 Rigidbody2D:
   serializedVersion: 5
