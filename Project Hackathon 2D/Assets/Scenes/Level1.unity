@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
-      value: Transistion
+      value: Transition
       objectReference: {fileID: 0}
     - target: {fileID: 8396432608991798929, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Pivot.x

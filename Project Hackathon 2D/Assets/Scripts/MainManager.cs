@@ -51,7 +51,6 @@ public class MainManager : MonoBehaviour
 
     static public void SetReadyToTransition(bool ready)
     {
-        Debug.Log("ready to transistion");
         readyToTransition = ready; 
     }
 
