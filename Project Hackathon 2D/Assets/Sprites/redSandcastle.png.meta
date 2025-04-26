@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      redSandcastle_0: 2456953208695614665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
