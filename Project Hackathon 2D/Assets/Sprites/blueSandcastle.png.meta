@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blueSandcastle_0: -1397566414837802065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

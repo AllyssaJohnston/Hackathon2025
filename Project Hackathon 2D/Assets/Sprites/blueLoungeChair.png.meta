@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blueLoungeChair_0: 8750406312230905351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
