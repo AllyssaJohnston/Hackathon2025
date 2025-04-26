@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      picnicBlue_0: 4512359763945844349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

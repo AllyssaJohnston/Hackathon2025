@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HotDogCartBlue_0: 6018614103145411116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
