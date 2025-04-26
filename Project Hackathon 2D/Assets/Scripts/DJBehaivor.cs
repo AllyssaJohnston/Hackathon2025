@@ -54,7 +54,7 @@ public class DJBehaivor : MonoBehaviour
         }
         else
         {
-            stopTune();
+            resetTune();
         }
     }
 
