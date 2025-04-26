@@ -1384,12 +1384,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1480917699468073914, guid: 0c366c92fc19f6f44a4f0a797a05ba97, type: 3}
     - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 215.3038
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 207.513
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 192
+      value: 216.8687
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -247.687
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_text
-      value: Dog thanks you
+      value: 'Thank you good person, much appreciated.
+
+
+        *starts chasing
+        its tail*'
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_margin.z

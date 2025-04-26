@@ -7,6 +7,9 @@ public class GameManagerBehavior : MonoBehaviour
     private GameObject[] npcs;
     private GameObject[] transitions;
 
+    // Switch to true if this is the level before the next location
+    public bool lastArea = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -43,7 +46,7 @@ public class GameManagerBehavior : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            MainManager.AttemptToTransition();
+            MainManager.AttemptToTransition(lastArea);
         }
     }
 }

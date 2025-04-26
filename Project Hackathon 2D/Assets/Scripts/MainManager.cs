@@ -55,10 +55,21 @@ public class MainManager : MonoBehaviour
     }
 
 
-    static public void AttemptToTransition()
+    static public void AttemptToTransition(bool lastArea)
     {
         if (readyToTransition)
         {
+            // If it's the last level in an area, start changing the music
+            if (lastArea)
+            {
+                GameObject musicPlayer = GameObject.FindGameObjectWithTag("MusicPlayer");
+                // Makes sure that the game doesn't crash if the DJ isn't in that scene for testing
+                if (musicPlayer != null)
+                {
+                    // Plays the next tune in the playlist
+                    musicPlayer.GetComponent<DJBehaivor>().nextTune();
+                }
+            }
             NextStage();
         }
     }

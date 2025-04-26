@@ -127,33 +127,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1666837167812711019, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1817278036110247611, guid: 794f84bea38155eac9f69888a8911f18, type: 3}
+    - target: {fileID: 2796893630209332978, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 428
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 224.8686
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 209.324
+      objectReference: {fileID: 0}
     - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 3
+      value: 0.4343
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250.821
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039774123614455831, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_margin.w
+      value: 59.382202
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039774123614455831, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_margin.y
+      value: -43.474243
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_text
-      value: Grampa thanks you
+      value: "Thank you for your help young ones. \n\nNow I can get back to playing
+        Fortday with my grandson."
       objectReference: {fileID: 0}
-    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.3200543
-      objectReference: {fileID: 0}
-    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -313
+    - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_margin.z
+      value: -318.69482
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
       value: Transition
-      objectReference: {fileID: 0}
-    - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8396432608991798929, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Pivot.x
@@ -1535,6 +1548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1058350072594044408, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.48
+      objectReference: {fileID: 0}
     - target: {fileID: 2544437824093503752, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
       propertyPath: m_Name
       value: Walls
@@ -1549,7 +1566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3516401873791846185, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3516401873791846185, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1590,6 +1607,10 @@ PrefabInstance:
     - target: {fileID: 5983037794690686942, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455461115563265735, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.48
       objectReference: {fileID: 0}
     - target: {fileID: 8327539012366639434, guid: 41fe3676f6469c24ea870c51b3eef67c, type: 3}
       propertyPath: m_SortingOrder
