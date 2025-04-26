@@ -32,8 +32,8 @@ public class BlockManagerBehavior : MonoBehaviour
         Debug.Log("player " + (player == null ? "null" : "not null"));
         if (player != null)
         {
-
-            if (player.getColor() == sR.color)
+            //Debug.Log(player.getColor() + " " + sR.color);
+            if (compareColor(player.getColor(), sR.color))
             {
                 rB2D.constraints = RigidbodyConstraints2D.FreezeRotation;
             }
@@ -50,6 +50,12 @@ public class BlockManagerBehavior : MonoBehaviour
     {
         rB2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
     }
+
+    private bool compareColor(Color c1, Color c2)
+    {
+        return Mathf.Abs(c1.r - c2.r) <= .5f && Mathf.Abs(c1.g - c2.g) <= .5f && Mathf.Abs(c1.b - c2.b) <= .5f && Mathf.Abs(c1.a - c2.a) <= .5f;
+    }
+
 
     public void Reset()
     {
