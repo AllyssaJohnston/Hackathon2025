@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 436f57f5d4fa5ee4c970d6b0042a07a6
-=======
-guid: 1b3d38eb553f9e547801da1d73b4dff3
->>>>>>> c6b12777556c3caab008c4cc59aed3164914a195
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -151,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable: {}
-=======
-    nameFileIdTable:
-      beachCrab_0: -5297726578326322742
->>>>>>> c6b12777556c3caab008c4cc59aed3164914a195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
