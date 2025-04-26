@@ -12,6 +12,7 @@ public class NPCMovement : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.destination = target.transform.position;
+        Debug.Log(target == null);
     }
 
     // Update is called once per frame
