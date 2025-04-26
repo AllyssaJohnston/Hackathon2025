@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNumber: 0
+  backSideSprite: {fileID: -4734384702983438903, guid: 0d76017263a90f243851844934b3de66, type: 3}
   spriteColor: {r: 1, g: 0, b: 0, a: 1}
   sR: {fileID: 0}
   rB2D: {fileID: 0}
