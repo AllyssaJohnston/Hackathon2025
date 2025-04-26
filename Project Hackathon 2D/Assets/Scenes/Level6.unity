@@ -763,6 +763,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8184185693589823514, guid: 9851a4259fbef664d93926c61e51f701, type: 3}
+      propertyPath: lastArea
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1247,26 +1251,48 @@ PrefabInstance:
     - target: {fileID: 1666837167812711019, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1480917699468073914, guid: 0c366c92fc19f6f44a4f0a797a05ba97, type: 3}
+      objectReference: {fileID: -5297726578326322742, guid: 5b4535f19baff06428091d95a06bf08a, type: 3}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 201.1245
+      objectReference: {fileID: 0}
     - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 192
+      value: -189.87204
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_text
-      value: Dog thanks you
+      value: '*Blink Blink*
+
+        (The crab seems grateful to you)'
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_margin.z
       value: -136.96167
       objectReference: {fileID: 0}
     - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.5322237
+      value: 2.96983
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.5172615
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.65527
       objectReference: {fileID: 0}
     - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -220
+      value: 236
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -233
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
@@ -1274,7 +1300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8396432608991798929, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Pivot.x

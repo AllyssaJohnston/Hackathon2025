@@ -34,6 +34,7 @@ public class NPCMovement : MonoBehaviour
 
     public void Reset()
     {
+        isTargeting = false;
         transform.position = startPos;
         agent.nextPosition = startPos;
     }
