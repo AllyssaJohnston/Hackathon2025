@@ -17,6 +17,15 @@ public class NPCMovement : MonoBehaviour
         agent.destination = target.transform.position;
     }
 
+    private void Awake()
+    {
+        startPos = gameObject.transform.position;
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+        agent.destination = target.transform.position;
+    }
+
     // Update is called once per frame
     void Update()
     {

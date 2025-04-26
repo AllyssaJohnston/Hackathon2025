@@ -18,7 +18,10 @@ public class GoalBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(transistionPanel.GetComponent<CanvasTransitionBehavior>().sceneTransition());
+        if (collision.gameObject.tag == "NPC")
+        {
+            StartCoroutine(transistionPanel.GetComponent<CanvasTransitionBehavior>().sceneTransition());
+        }
     }
 
 }
