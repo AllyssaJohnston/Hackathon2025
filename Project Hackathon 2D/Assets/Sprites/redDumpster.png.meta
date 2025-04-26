@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be460ca2329c2de4cb77efa7d262036a
+guid: e93f240dad2102d4d842ffcfa6f9b8e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5700298267544713129
-    second: blueCar_0
+      213: -6731235974188136060
+    second: redDumpster_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 750
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blueCar_0
+      name: redDumpster_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 9
-        width: 888
-        height: 451
+        x: 12
+        y: 2
+        width: 615
+        height: 562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a7f6c6a2178b1f40800000000000000
-      internalID: 5700298267544713129
+      spriteID: 4898f2b8b88d592a0800000000000000
+      internalID: -6731235974188136060
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      blueCar_0: 5700298267544713129
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
