@@ -129,63 +129,32 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 903156765074725229, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -304
+      value: -251
       objectReference: {fileID: 0}
-    - target: {fileID: 1666837167812711019, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1817278036110247611, guid: 794f84bea38155eac9f69888a8911f18, type: 3}
-    - target: {fileID: 1845940631471813910, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_Type
-      value: 0
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 224.8686
       objectReference: {fileID: 0}
-    - target: {fileID: 1845940631471813910, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -8469593336311622514, guid: e9f92cc9befd25c4a91644ababd6a382, type: 3}
-    - target: {fileID: 1845940631471813910, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1845940631471813910, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_Color.r
-      value: 1
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 209.324
       objectReference: {fileID: 0}
     - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 3
+      value: 0.4343
       objectReference: {fileID: 0}
     - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 191
+      value: -250.821
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_text
-      value: Grampa thanks you
+      value: "Thank you for your help young ones. \n\nNow I can get back to playing
+        Fortday with my grandson."
       objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278190080
-      objectReference: {fileID: 0}
-    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.3200543
-      objectReference: {fileID: 0}
-    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -313
+      propertyPath: m_margin.z
+      value: -318.69482
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
