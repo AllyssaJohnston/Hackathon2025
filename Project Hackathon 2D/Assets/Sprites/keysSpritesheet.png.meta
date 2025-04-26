@@ -797,7 +797,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      keysSpritesheet_0: 3130238262915572868
+      keysSpritesheet_1: 3324622227361249400
+      keysSpritesheet_10: -4922357160262599604
+      keysSpritesheet_11: 5561507990170405412
+      keysSpritesheet_12: 6684520768932710505
+      keysSpritesheet_13: 5928139734362363953
+      keysSpritesheet_14: 6656446744100752702
+      keysSpritesheet_15: 71725112481075973
+      keysSpritesheet_16: -3790715745043727974
+      keysSpritesheet_17: 5968791412938759421
+      keysSpritesheet_18: -8326094515174097827
+      keysSpritesheet_19: -6707757705608566005
+      keysSpritesheet_2: 5500060147893083512
+      keysSpritesheet_20: -6368181523461036859
+      keysSpritesheet_21: -7651484783074741091
+      keysSpritesheet_22: 4571186499383748951
+      keysSpritesheet_23: 4910017233407248440
+      keysSpritesheet_24: 5151318819029876768
+      keysSpritesheet_25: -3989373834167760083
+      keysSpritesheet_26: 3810918809256124488
+      keysSpritesheet_3: 7038719220440963492
+      keysSpritesheet_4: 6061921240775768851
+      keysSpritesheet_5: -7836368192324366826
+      keysSpritesheet_6: 5115443497982785801
+      keysSpritesheet_7: -5141572888244356694
+      keysSpritesheet_8: -6622565024270522990
+      keysSpritesheet_9: 6706665658661140657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
