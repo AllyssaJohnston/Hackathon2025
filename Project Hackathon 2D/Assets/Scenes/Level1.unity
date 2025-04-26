@@ -139,6 +139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transition
       objectReference: {fileID: 0}
+    - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8396432608991798929, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -954,6 +958,14 @@ PrefabInstance:
     - target: {fileID: 64316979054997587, guid: f5e08f8725f38ff4e8bb50ba9d4e6390, type: 3}
       propertyPath: m_Name
       value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026124702503711252, guid: f5e08f8725f38ff4e8bb50ba9d4e6390, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4026124702503711252, guid: f5e08f8725f38ff4e8bb50ba9d4e6390, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4026124702503711252, guid: f5e08f8725f38ff4e8bb50ba9d4e6390, type: 3}
       propertyPath: m_LocalPosition.x
