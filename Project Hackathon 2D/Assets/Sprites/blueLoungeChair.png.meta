@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 7c7dd714b65dbe573ade0c10e40cb3fd
-=======
-guid: 731ac1bdb4d85354d8fff1c8aaebaba0
->>>>>>> origin/main
+guid: 45b377368d0d2d649a8933bb1ca5d90f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -607584862258528330
-    second: roadBackground_0
+      213: 8750406312230905351
+    second: blueLoungeChair_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roadBackground_0
+      name: blueLoungeChair_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 2000
+        x: 10
+        y: 5
+        width: 658
+        height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bffc2279cc6197f0800000000000000
-      internalID: -607584862258528330
+      spriteID: 706ebd8ed20bf6970800000000000000
+      internalID: 8750406312230905351
       vertices: []
       indices: 
       edges: []
@@ -151,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      roadBackground_0: -607584862258528330
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

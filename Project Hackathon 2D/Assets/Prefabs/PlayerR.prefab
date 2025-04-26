@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 819621241174065016}
   - component: {fileID: 8250454517033074930}
   m_Layer: 8
-  m_Name: Player
-  m_TagString: Untagged
+  m_Name: PlayerR
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 8323812755282689788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6392955, y: 1.7812979, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.78, y: -7.12, z: 0}
+  m_LocalScale: {x: 0.3865, y: 0.4455, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,15 +79,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -5223258421110680988, guid: bce4c47c9b6da3f4aa110730fc0cb339, type: 3}
+  m_Sprite: {fileID: 4674502334843305262, guid: db024c7c705c3c44daad5941aa0fe962, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.26, y: 5.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &367808479649064560
@@ -102,8 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc71193e5a5379841a516d440c32bbf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNumber: 1
-  spriteColor: {r: 0, g: 0, b: 0, a: 0}
+  playerNumber: 0
+  spriteColor: {r: 1, g: 0, b: 0, a: 1}
   sR: {fileID: 0}
   rB2D: {fileID: 0}
 --- !u!50 &819621241174065016
