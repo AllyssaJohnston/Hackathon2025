@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] SpriteRenderer sR;
     [SerializeField] Rigidbody2D rB2D;
 
+
+    float deadzone = 0.75f;
     private void Start()
     {
         sR = gameObject.GetComponent<SpriteRenderer>();
@@ -35,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         // Player 1 Movement
         if (playerNumber)
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || Input.GetAxis("Vertical") < -deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedY <= maxSpeed)
@@ -48,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                     
             }
-            else if (Input.GetKey(KeyCode.S))
+            else if (Input.GetKey(KeyCode.S) || Input.GetAxis("Vertical") > deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedY >= -maxSpeed)
@@ -64,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 movementSpeedY /= slowDownAmounts;
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || Input.GetAxis("Horizontal") > deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedX <= maxSpeed)
@@ -72,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
                     movementSpeedX += movementAmounts;
                 }
             }
-            else if (Input.GetKey(KeyCode.A))
+            else if (Input.GetKey(KeyCode.A) || Input.GetAxis("Horizontal") < -deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedX >= -maxSpeed)
@@ -88,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
         // Player 2 Movement
         else
         {
-            if (Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetAxis("VerticalP2") < -deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedY <= maxSpeed)
@@ -100,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
                     sR.sprite = backSideSprite;
                 }
             }
-            else if (Input.GetKey(KeyCode.DownArrow))
+            else if (Input.GetKey(KeyCode.DownArrow) || Input.GetAxis("VerticalP2") > deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedY >= -maxSpeed)
@@ -116,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 movementSpeedY /= slowDownAmounts;
             }
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetAxis("HorizontalP2") > deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedX <= maxSpeed)
@@ -124,7 +126,7 @@ public class PlayerMovement : MonoBehaviour
                     movementSpeedX += movementAmounts;
                 }
             }
-            else if (Input.GetKey(KeyCode.LeftArrow))
+            else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetAxis("HorizontalP2") < -deadzone)
             {
                 // Move along the Y axis
                 if (movementSpeedX >= -maxSpeed)

@@ -1488,6 +1488,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 367808479649064560, guid: 68c472f71f0913141957c9607d938d9b, type: 3}
+      propertyPath: deadzone
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 367808479649064560, guid: 68c472f71f0913141957c9607d938d9b, type: 3}
       propertyPath: backSideSprite
       value: 
       objectReference: {fileID: 1853222913229772478, guid: f68aa7065295c7a4a8a177b0b8c6fa65, type: 3}
