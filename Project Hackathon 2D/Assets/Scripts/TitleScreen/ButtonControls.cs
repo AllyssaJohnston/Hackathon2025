@@ -12,10 +12,12 @@ public class ButtonControls : MonoBehaviour
         sR = this.GetComponent<SpriteRenderer>();
         sR.color = new Color(sR.color.r, sR.color.g, sR.color.b, 0);
     }
+
     public void changeScene()
     {
         StartCoroutine(sceneTransition(true));
     }
+    
     public void quiteGame()
     {
         StartCoroutine(sceneTransition(false));
