@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a284c55d25e8a8540a3e1376d54f663e
+guid: c811270f04721de11a3bdf5ef69c487a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7993961826452602613
-    second: HotDogCartRed_0
+      213: -1314923570169941335
+    second: goal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HotDogCartRed_0
+      name: goal_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 1592
-        height: 2063
+        x: 82
+        y: 65
+        width: 769
+        height: 878
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fe7db56de140fe60800000000000000
-      internalID: 7993961826452602613
+      spriteID: 9a27b3dcaf370cde0800000000000000
+      internalID: -1314923570169941335
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      HotDogCartRed_0: 7993961826452602613
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
