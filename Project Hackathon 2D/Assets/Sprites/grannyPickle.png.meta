@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grannyPickle_0: -1925681860022783456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

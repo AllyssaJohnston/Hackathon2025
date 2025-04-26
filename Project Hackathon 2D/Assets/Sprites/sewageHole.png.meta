@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 750
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sewageHole_0: 9032360205949755591
+      sewageHole_1: 7622592013829192320
+      sewageHole_2: 3074102754872531423
+      sewageHole_3: -2628687990656890859
+      sewageHole_4: 5372026137541699756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
