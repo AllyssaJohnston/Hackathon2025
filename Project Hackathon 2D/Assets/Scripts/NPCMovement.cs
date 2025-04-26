@@ -27,7 +27,7 @@ public class NPCMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!isTargeting && Input.GetKeyDown(KeyCode.Space)) {
+        if(!isTargeting && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Continue"))) {
             TargetGoal();
         }
     }
