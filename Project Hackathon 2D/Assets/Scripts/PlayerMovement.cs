@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     // Movement variables for ease of change
     Vector2 startPos;
-    float movementAmounts = 0.1f;
-    float slowDownAmounts = 1.05f;
+    float movementAmounts = 1f;
+    float slowDownAmounts = 5f;
     float maxSpeed = 5;
     List<Collider2D> disabled = new List<Collider2D>();
 
@@ -117,6 +117,7 @@ public class PlayerMovement : MonoBehaviour
                 movementSpeedX /= slowDownAmounts;
             }
         }
+
 
     }
 
