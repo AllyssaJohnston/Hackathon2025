@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: db024c7c705c3c44daad5941aa0fe962
+guid: 9012f92454dffcc429fc020f9a1220fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4674502334843305262
-    second: PlayerTwoFront_0
+      213: 9032360205949755591
+    second: sewageHole_0
+  - first:
+      213: 7622592013829192320
+    second: sewageHole_1
+  - first:
+      213: 3074102754872531423
+    second: sewageHole_2
+  - first:
+      213: -2628687990656890859
+    second: sewageHole_3
+  - first:
+      213: 5372026137541699756
+    second: sewageHole_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerTwoFront_0
+      name: sewageHole_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 326
-        height: 541
+        x: 19
+        y: 804
+        width: 234
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2db1126b1b2fd040800000000000000
-      internalID: 4674502334843305262
+      spriteID: 7c0620770c3695d70800000000000000
+      internalID: 9032360205949755591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewageHole_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 240
+        width: 645
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ab404ec03e8c960800000000000000
+      internalID: 7622592013829192320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewageHole_2
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 793
+        width: 240
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91a331b2869aa20800000000000000
+      internalID: 3074102754872531423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewageHole_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 12
+        width: 247
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5188f8b2336058bd0800000000000000
+      internalID: -2628687990656890859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewageHole_4
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 268
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca869445f454d8a40800000000000000
+      internalID: 5372026137541699756
       vertices: []
       indices: 
       edges: []
@@ -147,8 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      PlayerTwoFront_0: 4674502334843305262
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
