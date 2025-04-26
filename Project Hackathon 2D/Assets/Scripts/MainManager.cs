@@ -31,7 +31,7 @@ public class MainManager : MonoBehaviour
         
     }
 
-    void ChangeStage(int number)
+    static public void ChangeStage(int number)
     {
         int newIndex = SceneManager.GetActiveScene().buildIndex + number;
 
@@ -45,17 +45,17 @@ public class MainManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + number);
     }
 
-    void PreviousStage()
+    static public void PreviousStage()
     {
         ChangeStage(-1);
     }
 
-    void NextStage()
+    static public void NextStage()
     {
         ChangeStage(1);
     }
 
-    void ReloadStage()
+    static public void ReloadStage()
     {
         ChangeStage(0);
     }
