@@ -27,10 +27,11 @@ public class MainManager : MonoBehaviour
         if(0 > newIndex || newIndex > SceneManager.sceneCountInBuildSettings - 1)
         {
             Debug.Log("No more scenes!");
-            return;
+            newIndex = 0;
+            readyToTransition = true;
         }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + number);
+        SceneManager.LoadScene(newIndex);
         readyToTransition = false;
     }
 
