@@ -733,20 +733,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1925681860022783456, guid: f69a1bd2b20f32b2c998318ed50e721e, type: 3}
     - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 221.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 28
       objectReference: {fileID: 0}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -272.76102
+      objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_text
-      value: Granny thanks you
+      value: "Ah thank you my dear. \n\nI wish my grandkids were more like you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_margin.x
+      value: -113.02197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_margin.z
+      value: -312.95667
       objectReference: {fileID: 0}
     - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.4061017
+      value: 2.0692956
       objectReference: {fileID: 0}
     - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -298
+      value: -317
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
