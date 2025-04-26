@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      redLoungeChair_0: -4766580454120946340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
