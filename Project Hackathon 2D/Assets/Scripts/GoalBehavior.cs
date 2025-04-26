@@ -1,7 +1,9 @@
+using System.Collections;
 using UnityEngine;
 
 public class GoalBehavior : MonoBehaviour
 {
+    [SerializeField] Canvas transistionPanel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,6 +18,8 @@ public class GoalBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        MainManager.NextStage();
+        Debug.Log("start transition");
+        StartCoroutine(transistionPanel.GetComponent<CanvasTransistionBehavior>().sceneTransition());
     }
+
 }

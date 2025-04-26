@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class MainManager : MonoBehaviour
 {
     public static MainManager Instance;
-
+    private static bool readyToTransition = true;
 
     //make this a singleton
     private void Awake()
@@ -19,18 +19,6 @@ public class MainManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     static public void ChangeStage(int number)
     {
         int newIndex = SceneManager.GetActiveScene().buildIndex + number;
@@ -43,6 +31,7 @@ public class MainManager : MonoBehaviour
         }
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + number);
+        readyToTransition = false;
     }
 
     static public void PreviousStage()
@@ -60,5 +49,18 @@ public class MainManager : MonoBehaviour
         ChangeStage(0);
     }
 
+    static public void SetReadyToTransition(bool ready)
+    {
+        Debug.Log("ready to transistion");
+        readyToTransition = ready; 
+    }
 
+
+    static public void AttemptToTransition()
+    {
+        if (readyToTransition)
+        {
+            NextStage();
+        }
+    }
 }
