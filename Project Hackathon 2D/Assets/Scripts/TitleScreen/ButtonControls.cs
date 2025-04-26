@@ -30,7 +30,7 @@ public class ButtonControls : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         if (change)
         {
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level2");
         }
         else
         {
