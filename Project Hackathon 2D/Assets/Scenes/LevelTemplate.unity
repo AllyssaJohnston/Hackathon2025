@@ -510,6 +510,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5264799522955049436, guid: f5e08f8725f38ff4e8bb50ba9d4e6390, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -607584862258528330, guid: 7c7dd714b65dbe573ade0c10e40cb3fd, type: 3}
     - target: {fileID: 7614506864104677013, guid: f5e08f8725f38ff4e8bb50ba9d4e6390, type: 3}
       propertyPath: m_OverrideArea
       value: 1
@@ -932,7 +936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
-      value: Transistion
+      value: Transition
       objectReference: {fileID: 0}
     - target: {fileID: 8396432608991798929, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Pivot.x
