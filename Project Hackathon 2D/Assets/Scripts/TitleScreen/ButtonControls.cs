@@ -31,7 +31,7 @@ public class ButtonControls : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         if (change)
         {
-            MainManager.NextStage();
+            MainManager.AttemptToTransition(true);
         }
         else
         {
