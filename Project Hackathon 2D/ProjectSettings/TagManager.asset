@@ -8,6 +8,7 @@ TagManager:
   - Goal
   - NPC
   - Transition
+  - MusicPlayer
   layers:
   - Default
   - TransparentFX
