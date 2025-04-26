@@ -48,7 +48,7 @@ public class DJBehaivor : MonoBehaviour
     public void nextTune()
     {
         tune++;
-        if (tune >= playList.Count)
+        if (tune < playList.Count)
         {
             StartCoroutine(startTune(false));
         }
