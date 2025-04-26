@@ -22,7 +22,7 @@ public class GameManagerBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R) || Input.GetButtonDown("ResetButton"))
+        if (Input.GetKeyDown(KeyCode.R) || Input.GetButtonDown("Reset"))
         {
             //level reset
             foreach (GameObject player in players)
