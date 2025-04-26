@@ -131,9 +131,21 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1817278036110247611, guid: 794f84bea38155eac9f69888a8911f18, type: 3}
+    - target: {fileID: 2849025258812078658, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6410584495563165716, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_text
       value: Grampa thanks you
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3200543
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711204986901970208, guid: ddf30369636939c4993d806a77478787, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -313
       objectReference: {fileID: 0}
     - target: {fileID: 7345182749496005436, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_Name
