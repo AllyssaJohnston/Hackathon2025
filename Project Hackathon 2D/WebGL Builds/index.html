@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | Project Hackathon 2D</title>
+    <title>Unity Web Player | I Need Some Help</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1000 height=1000 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Project Hackathon 2D</div>
+        <div id="unity-build-title">I Need Some Help</div>
       </div>
     </div>
     <script>
@@ -59,8 +59,8 @@
         frameworkUrl: buildUrl + "/WebGL Builds.framework.js.unityweb",
         codeUrl: buildUrl + "/WebGL Builds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Project Hackathon 2D",
+        companyName: "Not Just Anybody",
+        productName: "I Need Some Help",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -98,8 +98,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1000px";
+        canvas.style.height = "1000px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
