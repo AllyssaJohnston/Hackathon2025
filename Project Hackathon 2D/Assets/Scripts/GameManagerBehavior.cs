@@ -44,7 +44,7 @@ public class GameManagerBehavior : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Continue"))
         {
             MainManager.AttemptToTransition(lastArea);
         }
