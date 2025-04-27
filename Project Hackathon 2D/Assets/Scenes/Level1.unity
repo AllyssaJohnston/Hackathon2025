@@ -132,14 +132,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1817278036110247611, guid: 794f84bea38155eac9f69888a8911f18, type: 3}
     - target: {fileID: 2796893630209332978, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -383.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2796893630209332978, guid: ddf30369636939c4993d806a77478787, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 457.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2796893630209332978, guid: ddf30369636939c4993d806a77478787, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
@@ -1453,6 +1445,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3097818457246411778, guid: 77b08b0d84b988f40a1abc15077b8923, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2978551846922779099, guid: 4106a4052907a7a4ba64d665f9cb372c, type: 3}
     - target: {fileID: 4980296416206513634, guid: 77b08b0d84b988f40a1abc15077b8923, type: 3}
       propertyPath: transistionPanel
       value: 
@@ -1688,7 +1684,7 @@ PrefabInstance:
     - target: {fileID: 2394876588513408712, guid: 972306dc15b18d94680d42757781183c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1817278036110247611, guid: 794f84bea38155eac9f69888a8911f18, type: 3}
+      objectReference: {fileID: -1874255492323090585, guid: 5043be41a4531974a86fcd9e2c28cf84, type: 3}
     - target: {fileID: 2394876588513408712, guid: 972306dc15b18d94680d42757781183c, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
