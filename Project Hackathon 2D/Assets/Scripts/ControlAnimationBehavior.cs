@@ -9,6 +9,7 @@ public class ControlAnimationBehavior : MonoBehaviour
     public Button quit;
     public GameObject panel;
     public TMP_Text text;
+    public TMP_Text text2;
     public GameObject image;
     public GameObject image1;
     public GameObject grampa;
@@ -45,11 +46,13 @@ public class ControlAnimationBehavior : MonoBehaviour
         {
             Color panelColor = panel.GetComponent<Image>().color;
             Color textColor = text.color;
+            Color textColor2 = text2.color;
             Color npcColor = image.GetComponent<Image>().color;
             Color npcColor2 = image1.GetComponent<Image>().color;
 
             panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, panelColor.a - alphaChange);
             text.color = new Color(textColor.r, textColor.g, textColor.b, textColor.a - alphaChange);
+            text2.color = new Color(textColor2.r, textColor2.g, textColor2.b, textColor2.a - alphaChange);
             image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, npcColor.a - alphaChange);
             image1.GetComponent<Image>().color = new Color(npcColor2.r, npcColor2.g, npcColor2.b, npcColor2.a - alphaChange);
 
@@ -63,6 +66,7 @@ public class ControlAnimationBehavior : MonoBehaviour
     {
         Color panelColor = panel.GetComponent<Image>().color;
         Color textColor = text.color;
+        Color textColor2 = text2.color;
         Color npcColor = image.GetComponent<Image>().color;
         Color npcColor2 = image1.GetComponent<Image>().color;
         Color grampasSkin = grampa.GetComponent<SpriteRenderer>().color;
@@ -70,6 +74,7 @@ public class ControlAnimationBehavior : MonoBehaviour
 
         panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, 1);
         text.color = new Color(textColor.r, textColor.g, textColor.b, 1);
+        text2.color = new Color(textColor2.r, textColor2.g, textColor2.b, 1);
         image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, 1);
         image1.GetComponent<Image>().color = new Color(npcColor2.r, npcColor2.g, npcColor2.b, 1);
         buttonLayout.GetComponent<SpriteRenderer>().color = new Color(buttonColors.r, buttonColors.g, buttonColors.b, 1);
@@ -84,11 +89,13 @@ public class ControlAnimationBehavior : MonoBehaviour
     {
         Color panelColor = panel.GetComponent<Image>().color;
         Color textColor = text.color;
+        Color textColor2 = text2.color;
         Color npcColor = image.GetComponent<Image>().color;
         Color npcColor2 = image1.GetComponent<Image>().color;
 
         panel.GetComponent<Image>().color = new Color(panelColor.r, panelColor.g, panelColor.b, 0);
         text.color = new Color(textColor.r, textColor.g, textColor.b, 0);
+        text2.color = new Color(textColor2.r, textColor2.g, textColor2.b, 0);
         image.GetComponent<Image>().color = new Color(npcColor.r, npcColor.g, npcColor.b, 0);
         image1.GetComponent<Image>().color = new Color(npcColor2.r, npcColor2.g, npcColor2.b, 0);
         MainManager.SetReadyToTransition(false);
