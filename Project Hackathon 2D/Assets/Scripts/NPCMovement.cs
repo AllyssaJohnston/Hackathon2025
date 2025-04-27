@@ -29,14 +29,14 @@ public class NPCMovement : MonoBehaviour
     {
         if(!isTargeting && (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Continue"))) {
             TargetGoal();
-        }
+        }       
     }
 
     public void Reset()
     {
         isTargeting = false;
         transform.position = startPos;
-        agent.nextPosition = startPos;
+        agent.destination  = startPos;
     }
 
     public void TargetGoal(){
